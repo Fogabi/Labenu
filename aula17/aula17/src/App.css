@@ -1,0 +1,46 @@
+body{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+header{
+  background-color: rgba(12, 236, 225, 0.726);
+  display: flex;
+  padding: 0 50px;
+  height: 10%;
+}
+
+#campoDeBusca{
+  margin-left: 5%;
+  margin-top: 2%;
+  width: 500px;
+  height: 40px;
+  border: none;
+  border-radius: 15px;
+}
+
+main{
+  min-height: 80%;
+  display: flex;
+}
+
+.menuVertical{
+  flex-basis: 200px;
+  background-color: aquamarine;
+  border-right-style: solid ;
+  border-right-width: thin;
+}
+
+.painelVideos{
+  padding-left: 20px;
+  padding-top: 20px;
+  flex-grow: 1;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: (repeat(4,1fr));
+  row-gap: 10px;
+  column-gap: 10px;
+  margin: 10px;
+}
+
